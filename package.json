@@ -2,7 +2,8 @@
   "name": "chat-socket",
   "version": "1.0.0",
   "description": "chat using secket.io",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Muadhim/learn-socket/issues"
   },
-  "homepage": "https://github.com/Muadhim/learn-socket#readme"
+  "homepage": "https://github.com/Muadhim/learn-socket#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
 }
